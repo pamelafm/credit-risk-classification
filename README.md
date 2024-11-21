@@ -1,9 +1,10 @@
 # credit-risk-classification
 
-Overview of the Analysis
+# Overview of the Analysis
+
 The purpose of this analysis is to evaluate the performance of two logistic regression machine learning models in predicting the credit risk associated with loans. The analysis was conducted on financial data, specifically focusing on loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. The objective was to predict the loan status, either as a healthy loan (0) or high-risk loan (1).
 
-The stages of the machine learning process in this analysis included:
+# The stages of the machine learning process in this analysis included:
 
 - Splitting the data into training and testing datasets
 - Creating and fitting a logistic regression model with the original data
@@ -13,7 +14,7 @@ The stages of the machine learning process in this analysis included:
 - Evaluating the performance of the resampled model using the same metrics
 - Methods used in this analysis include LogisticRegression and RandomOverSampler for resampling.
 
-Results
+# Results
 - Machine Learning Model 1: Logistic Regression with Original Data
 -Description of Model 1 Accuracy, Precision, and Recall scores.
 Accuracy: The overall accuracy of the model is 0.99, indicating that it correctly classifies 99% of the instances. Precision:
@@ -37,6 +38,6 @@ Based on the analysis provided, I would recommend this machine learning model, p
 
 6. Data Resampling: The analysis also demonstrates an understanding of class imbalance by using RandomOverSampler, which can improve model performance in scenarios where one class is underrepresented. This technique can enhance the model's ability to generalize and make accurate predictions across both classes.
 
-CONCLUSION
+# CONCLUSION
 
 Overall, the model demonstrates strong performance metrics, particularly in accurately classifying healthy loans and effectively identifying high-risk loans. Given these strengths, it would be appropriate to recommend this logistic regression model for predicting credit risk associated with loans. However, continuous monitoring and validation with new data would be essential to ensure its ongoing effectiveness and adaptability to changing patterns in loan data.
