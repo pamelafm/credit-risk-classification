@@ -38,4 +38,5 @@ Based on the analysis provided, I would recommend this machine learning model, p
 6. Data Resampling: The analysis also demonstrates an understanding of class imbalance by using RandomOverSampler, which can improve model performance in scenarios where one class is underrepresented. This technique can enhance the model's ability to generalize and make accurate predictions across both classes.
 
 CONCLUSION
+
 Overall, the model demonstrates strong performance metrics, particularly in accurately classifying healthy loans and effectively identifying high-risk loans. Given these strengths, it would be appropriate to recommend this logistic regression model for predicting credit risk associated with loans. However, continuous monitoring and validation with new data would be essential to ensure its ongoing effectiveness and adaptability to changing patterns in loan data.
